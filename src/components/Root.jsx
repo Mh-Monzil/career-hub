@@ -6,8 +6,10 @@ import Nav from './Nav';
 const Root = () => {
     return (
         <div>
-            <Nav></Nav>
-            <Outlet></Outlet>
+            <div className='max-w-7xl mx-auto'>
+                <Nav></Nav>
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </div>
     );
