@@ -59,7 +59,7 @@ const Nav = () => {
                     }
                 </div>
                 
-                <button className=" btn w-fit bg-purple-500 px-6 py-2 rounded-md text-white font-semibold hover:bg-purple-600">Apply Now</button>
+                <button className=" w-fit font-bold btn bg-gradient-to-r from-purple-400 to-purple-600 text-white">Start Applying</button>
             </ul>
         </nav>
     );
